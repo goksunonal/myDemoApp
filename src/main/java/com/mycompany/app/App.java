@@ -13,7 +13,7 @@ import spark.template.mustache.MustacheTemplateEngine;
 public class App
 {
 
-    public static boolean search(ArrayList<String> array,String se,int x){
+    public static boolean search(ArrayList<String> array,String se,int x){ // finding the  string se x times in array
         if (array == null) return false;
         int a=0;
     	for (String elt : array) {
